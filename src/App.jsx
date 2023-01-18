@@ -1,9 +1,10 @@
+import Header from "./components/Header/Header"
 import { GlobalStyle } from "./GlobalStyle"
 
 function App() {
   return (
     <GlobalStyle className="App">
-      <h1>oi</h1>
+      <Header></Header>
     </GlobalStyle>
   )
 }
